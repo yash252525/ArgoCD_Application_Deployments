@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1   # API group for ArgoCD resources
 kind: Application                  # Resource type is "Application"
 metadata:
-  name: online-shop-app            # Name of this ArgoCD application
+  name: online-shop-app-child            # Name of this ArgoCD application
   namespace: argocd                # Must be created in the 'argocd' namespace
 spec:
   project: default                 # ArgoCD Project (logical grouping of apps)
