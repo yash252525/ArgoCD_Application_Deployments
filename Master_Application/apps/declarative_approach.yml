@@ -10,7 +10,7 @@ spec:
     targetRevision: main           # Git branch or tag (e.g., main, dev, release-1.0)
     path: Declarative_Approach/online_shop   # Path inside repo where manifests live
   destination:
-    server: https://172.31.31.19:33893   # Target cluster API
+    server: https://172.31.13.185:33893   # Target cluster API
     namespace: default             # Namespace in which to deploy the app
   syncPolicy:                      # Defines how ArgoCD syncs the app
     automated:                     # Enable auto-sync
