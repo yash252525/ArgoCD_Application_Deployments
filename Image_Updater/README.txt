@@ -1,6 +1,6 @@
 # Install Image Updater
 
-kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj-labs/argocd-image-updater/stable/config/install.yaml
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj-labs/argocd-image-updater/v0.12.2/manifests/install.yaml
 
 # Create Github PAT and Docker Hub PAT
 # Push v1.0.0 image to Docker hub

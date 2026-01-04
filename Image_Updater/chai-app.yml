@@ -5,7 +5,8 @@ metadata:
   namespace: argocd             # Namespace where the Application resource will be created
   annotations:
     # Assign alias 'chai-app' to your image
-    argocd-image-updater.argoproj.io/image-list: chai-app=yash252525/chai-devops # Maps the image alias 'chai-app' to your DockerHub image
+    # argocd-image-updater.argoproj.io/image-list: chai-app=yash252525/chai-devops # Maps the image alias 'chai-app' to your DockerHub image
+    argocd-image-updater.argoproj.io/image-list: chai-app=yash252525/chai-devops:~1.0
 
     # Use git write-back
     argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/argocd-image-updater-git-creds # Configures image updater to write changes back to Git using provided secret
