@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - yash252525/chai-devops=yash252525/chai-devops:v1.0.1
