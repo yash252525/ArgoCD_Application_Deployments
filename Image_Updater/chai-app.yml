@@ -12,7 +12,8 @@ metadata:
 
     # Update strategy for chai-app image
     argocd-image-updater.argoproj.io/chai-app.update-strategy: semver # Uses semantic versioning for image updates
-
+    # Declarative Approach for Image Implementation (Troubleshooting step)
+    argocd-image-updater.argoproj.io/chai-app.kustomize.image-name: yash252525/chai-devops
 spec:
   project: default              # Associates this Application with the 'default' ArgoCD project
   source:
