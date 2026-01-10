@@ -419,4 +419,3 @@ Read more: [High-Availability](https://argo-cd.readthedocs.io/en/latest/operator
 
 ---
 
-Happy Learning!
